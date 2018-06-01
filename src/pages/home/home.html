@@ -1,0 +1,65 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <!--<button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>-->
+    <ion-title>
+      <ion-icon ios="ios-walk" md="md-walk"></ion-icon> Today's Walkins</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="goToshare()" item-end>
+        <ion-icon name="share"></ion-icon>
+      </button>
+      <button ion-button icon-only (click)="goToLike()" item-end>
+        <ion-icon name="thumbs-up"></ion-icon>
+      </button>
+
+    </ion-buttons>
+
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+  <div>
+    <div>
+      <div>
+        <h2 style="background-color: #e0f2ff;  padding: 8px;">Latest</h2>
+      </div>
+      <p style="padding-top:10px; margin-left:5pc">
+        No latest updates available
+      </p>
+      <div>
+        <table style="width: 100%">
+          <tr>
+            <th colspan="2" style="font-size: 1.8rem;text-align: left;padding: 8px 18px;">Company</th>
+          </tr>
+          <tr>
+            <td style="padding-left: 5%;">
+              <strong>Tavant Technologies</strong> <br>
+              <label style="padding-top: 4px;margin-top: 0;display:  block;">PB: 03/06/2018</label>
+            </td>
+            <td>
+              <button ion-button color="secondary" outline>View</button>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding-left: 5%;">Centro comercial Moctezuma</td>
+            <td>
+              <button ion-button color="secondary" outline>View</button>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <table class="table-footer">
+        <tr style="width: 100%">
+          <td>
+            <p (click)=redirectToHistory(); style="background-color: #e0f2ff;  padding: 8px; margin-bottom:1px;">History</p>
+          </td>
+          <td>
+            <p (click)=redirectToDiscription(); style="background-color: #e0f2ff;  padding: 8px; margin-bottom:1px;">How to Pick Right Interview</p>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</ion-content>

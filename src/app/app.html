@@ -1,0 +1,26 @@
+<ion-menu [content]="content">
+  <ion-header>
+    <ion-toolbar color="menu" menuToggle>
+      <ion-title >Menu</ion-title>
+      <ion-nav #myNav [root]="rootPage"></ion-nav>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-list >
+      <button color="subMenu" ion-item (click)="openPage(homePage)">
+        Home
+      </button>
+      <button color="subMenu" ion-item (click)="openPage(friendsPage)">
+        History
+      </button>
+      <button color="subMenu" ion-item (click)="openPage(eventsPage)">
+        Events
+      </button>
+      <button color="subMenu" ion-item menuToggle>
+        Close Menu
+      </button>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+
+<ion-nav id="nav" #content [root]="rootPage"></ion-nav>
