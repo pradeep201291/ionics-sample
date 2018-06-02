@@ -23,20 +23,20 @@
   <div>
     <div>
       <div>
-        <h2 style="background-color: #e0f2ff;  padding: 8px;">Latest</h2>
+        <h2 class="latest-header">Latest</h2>
       </div>
-      <p style="padding-top:10px; margin-left:5pc">
+      <!-- <p class="no-latest">
         No latest updates available
-      </p>
+      </p> -->
       <div>
         <table style="width: 100%">
           <tr>
-            <th colspan="2" style="font-size: 1.8rem;text-align: left;padding: 8px 18px;">Company</th>
+            <th colspan="2" class="company-header">Company</th>
           </tr>
           <tr>
             <td style="padding-left: 5%;">
               <strong>Tavant Technologies</strong> <br>
-              <label style="padding-top: 4px;margin-top: 0;display:  block;">PB: 03/06/2018</label>
+              <label class="published-date">PB: 03/06/2018</label>
             </td>
             <td>
               <button ion-button color="secondary" outline>View</button>
@@ -53,10 +53,10 @@
       <table class="table-footer">
         <tr style="width: 100%">
           <td>
-            <p (click)=redirectToHistory(); style="background-color: #e0f2ff;  padding: 8px; margin-bottom:1px;">History</p>
+            <p (click)=redirectToHistory(); class="history-tab">History</p>
           </td>
           <td>
-            <p (click)=redirectToDiscription(); style="background-color: #e0f2ff;  padding: 8px; margin-bottom:1px;">How to Pick Right Interview</p>
+            <p (click)=redirectToDiscription(); class="description-tab">How to Pick Right Interview</p>
           </td>
         </tr>
       </table>

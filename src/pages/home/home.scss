@@ -7,3 +7,31 @@ page-home {
     bottom: 0;
     margin-bottom: 18%;
 }
+.company-header {
+    font-size: 1.8rem;
+    text-align: left;
+    padding: 8px 18px;
+}
+.published-date {
+    padding-top: 4px;
+    margin-top: 0;
+    display:  block;
+}
+.no-latest {
+    padding-top:10px; 
+    margin-left:5px
+}
+.latest-header {
+    background-color: #e0f2ff;  
+    padding: 8px;
+}
+.history-tab {
+    background-color: #e0f2ff;  
+    padding: 8px; 
+    margin-bottom:1px;
+}
+.description-tab {
+    background-color: #e0f2ff;  
+    padding: 8px; 
+    margin-bottom:1px;
+}
