@@ -22,7 +22,6 @@ export class HomePage {
   }
 
   redirectWalkinDetails() {
-    debugger;
     this.navCtrl.push(WalkinDetailsPage);
   }
 }

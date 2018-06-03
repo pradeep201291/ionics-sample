@@ -12,9 +12,44 @@
   <div>
     <div (click)=onClick(); >
       <h2 style="background-color: #e0f2ff;  padding: 8px;">History</h2>
-      <p style="padding-top:10px; margin-left:5pc">
+      <!-- <p style="padding-top:10px; margin-left:5pc">
         No History found.
-      </p>
+      </p> -->
+      <div>
+        <table class="latest-table">
+          <tr>
+            <th colspan="2" class="company-header">Company</th>
+          </tr>
+          <tr>
+            <td style="padding-left: 5%;">
+              <strong class="company-name">Tavant Technologies</strong> <br>
+              <label class="published-date">PB: 03/06/2018</label>
+            </td>
+            <td>
+              <button ion-button color="secondary" outline (click)="redirectWalkinDetails()">Details</button>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding-left: 5%;">
+              <strong class="company-name">Cognizant Technology Solutions</strong> <br>
+              <label class="published-date">PB: 03/06/2018</label>
+            </td>
+            <td>
+              <button ion-button color="secondary" outline (click)="redirectWalkinDetails()">Details</button>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <!-- <table class="table-footer">
+        <tr style="width: 100%">
+          <td>
+            <p (click)="redirectToHome()" class="home-tab">Home</p>
+          </td>
+          <td>
+            <p (click)="redirectToDiscription()" class="description-tab">How to Pick Right Interview</p>
+          </td>
+        </tr>
+      </table> -->
     </div>
   </div>
 </ion-content>
