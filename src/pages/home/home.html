@@ -19,7 +19,7 @@
 </ion-header>
 
 
-<ion-content>
+<ion-content >
   <div>
     <div>
       <div>
@@ -29,23 +29,26 @@
         No latest updates available
       </p> -->
       <div>
-        <table style="width: 100%">
+        <table class="latest-table">
           <tr>
             <th colspan="2" class="company-header">Company</th>
           </tr>
           <tr>
             <td style="padding-left: 5%;">
-              <strong>Tavant Technologies</strong> <br>
+              <strong class="company-name">Tavant Technologies</strong> <br>
               <label class="published-date">PB: 03/06/2018</label>
             </td>
             <td>
-              <button ion-button color="secondary" outline>View</button>
+              <button ion-button color="secondary" outline (click)="redirectWalkinDetails()">View</button>
             </td>
           </tr>
           <tr>
-            <td style="padding-left: 5%;">Centro comercial Moctezuma</td>
+            <td style="padding-left: 5%;">
+              <strong class="company-name">Cognizant Technology Solutions</strong> <br>
+              <label class="published-date">PB: 03/06/2018</label>
+            </td>
             <td>
-              <button ion-button color="secondary" outline>View</button>
+              <button ion-button color="secondary" outline (click)="redirectWalkinDetails()">View</button>
             </td>
           </tr>
         </table>

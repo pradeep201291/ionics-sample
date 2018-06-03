@@ -11,11 +11,13 @@ page-home {
     font-size: 1.8rem;
     text-align: left;
     padding: 8px 18px;
+    color:#675f4f;
 }
 .published-date {
     padding-top: 4px;
     margin-top: 0;
     display:  block;
+    color:#d2a6a6;
 }
 .no-latest {
     padding-top:10px; 
@@ -24,6 +26,7 @@ page-home {
 .latest-header {
     background-color: #e0f2ff;  
     padding: 8px;
+    color:#675f4f
 }
 .history-tab {
     background-color: #e0f2ff;  
@@ -35,3 +38,12 @@ page-home {
     padding: 8px; 
     margin-bottom:1px;
 }
+.company-name{
+    color:#675f4f
+}
+.latest-table{
+    width: 100%
+}
+.body {
+    background-image: url("src/assets/imgs/bg.jpg");
+ }

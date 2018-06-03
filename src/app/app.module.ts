@@ -10,6 +10,7 @@ import { MyApp } from './app.component';
 import { HistoryPage } from '../pages/history/history';
 import { HomePage } from '../pages/home/home';
 import { DiscriptionPage } from '../pages/discription/discription';
+import { WalkinDetailsPage } from '../pages/walkin-details/walkin-details';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { DiscriptionPage } from '../pages/discription/discription';
     MyApp,
     HistoryPage,
     HomePage,
-    DiscriptionPage
+    DiscriptionPage,
+    WalkinDetailsPage
   ],
   imports: [
     BrowserModule,
@@ -28,7 +30,8 @@ import { DiscriptionPage } from '../pages/discription/discription';
     MyApp,
     HistoryPage,
     HomePage,
-    DiscriptionPage
+    DiscriptionPage,
+    WalkinDetailsPage
   ],
   providers: [
     StatusBar,
